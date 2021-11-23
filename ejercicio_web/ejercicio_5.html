@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" />
+    <script src="Display.js" type="text/javascript" defer></script>
+    <script src="Calculadora.js" type="text/javascript" defer></script>
+    <script src="index.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo-nav-container">
+            <a href="menu.html" class="logo">INICIO</a>
+            <nav class="navigation">
+                <ul>
+                    <li>
+                        <a href="ejercicio_1.html">
+                Arquitectura ciente/servidor
+            </a>
+                    </li>
+                    <li>
+                        <a href="ejercicio_2.html">
+                Lists de servidores web y servidores apps
+            </a>
+                    </li>
+                    <li>
+                        <a href="ejercicio_3.html">
+                videos de html,css,js
+            </a>
+                    </li>
+                    <li>
+                        <a href="ejercicio_4.html">
+                viejos tiempos
+            </a>
+                    </li>
+                    <li>
+                        <a href="ejercicio_5.html">
+                calculadora
+            </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <h1 class="Centrar">CALCULADORA BASICA</h1>
+
+    <div class="contairner">
+        <div class="calculadora">
+            <div class="display">
+                <div id="valor-anterior"></div>
+                <div id="valor-actual"></div>
+            </div>
+            <button class="col-2" onclick="display.borrarTodo()">C</button>
+            <button onclick="display.borrar()">&larr;</button>
+            <button class="operador" value="dividir">%</button>
+            <button class="numero">7</button>
+            <button class="numero">8</button>
+            <button class="numero">9</button>
+            <button class="operador" value="multiplicar">X</button>
+            <button class="numero">4</button>
+            <button class="numero">5</button>
+            <button class="numero">6</button>
+            <button class="operador" value="restar">-</button>
+            <button class="numero">1</button>
+            <button class="numero">2</button>
+            <button class="numero">3</button>
+            <button class="operador" value="sumar">+</button>
+            <button class="col-2 numero">0</button>
+            <button class="numero">.</button>
+            <button class="operador" value="igual">=</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <P><b>BY:</b> pablo alexander salazar sanchez</P>
+            <P><b>CODE:</b> 20201187152 </P>
+        </div>
+    </footer>
+</body>
+
+</html>
