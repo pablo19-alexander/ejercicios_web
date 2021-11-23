@@ -1,2 +1,2 @@
 # ejercicios_web
-restos HTML
+proyectos HTML, CSS, JS
